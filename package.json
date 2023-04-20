@@ -1,0 +1,22 @@
+{
+  "name": "salasanapankki",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start": "node index.js",
+    "build": "npm install && npx prisma init --datasource-provider mysql && npx prisma db pull && npx prisma generate"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^4.13.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^9.0.0"
+  },
+  "devDependencies": {
+    "prisma": "^4.13.0"
+  }
+}
